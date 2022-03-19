@@ -6,7 +6,11 @@ application up and running.
 Things you may want to cover:
 
 * 環境構築コマンド
-- docker-compose run web rails new . --force --database=mysql
+    - docker-compose run web rails new . --force --database=mysql
+    - docker-compose build
+    - docker-compose up -d
+        - 本コマンドでruby on railsを動かせる
+    - docker-compose run web bundle exec rake db:create
 
 * Ruby version
 
