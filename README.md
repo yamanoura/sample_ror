@@ -12,6 +12,9 @@ Things you may want to cover:
         - 本コマンドでruby on railsを動かせる
     - docker-compose run web bundle exec rake db:create
 
+* pidが残っていた時の対処方法
+    - rm tmp/pids/server.pid
+
 * Ruby version
 
 * System dependencies
