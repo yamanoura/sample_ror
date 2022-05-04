@@ -42,6 +42,7 @@ gem 'rails-i18n', '= 5.1.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rails-flog', '= 1.4.0', require: 'flog'
 end
 
 group :development do
